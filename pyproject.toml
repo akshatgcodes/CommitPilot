@@ -1,0 +1,33 @@
+[project]
+name = "commitpilot"
+version = "0.1.0"
+description = "Commit messages from your staged diff, and a nudge to split unrelated changes"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "langchain-core>=0.3",
+    "langchain-openai>=0.2",
+    "pydantic-settings>=2.3",
+]
+
+[project.scripts]
+pilot = "commitpilot.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
