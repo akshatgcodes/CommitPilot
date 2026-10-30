@@ -1,0 +1,30 @@
+/* Git orange, to match the CLI's subject */
+:root {
+  --bg: #faf7f5;
+  --bg-elevated: #ffffff;
+  --bg-sunken: #f3ece8;
+  --fg: #1f1714;
+  --fg-muted: #6e5d56;
+  --border: #e8ddd7;
+  --accent: #c2410c;
+  --on-accent: #ffffff;
+  --accent-soft: #fde7dd;
+  --accent-fg: #9a3412;
+  --code-bg: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14100e;
+    --bg-elevated: #1d1714;
+    --bg-sunken: #0c0908;
+    --fg: #f2ebe7;
+    --fg-muted: #a8968e;
+    --border: #352a25;
+    --accent: #f97352;
+    --on-accent: #2a0e05;
+    --accent-soft: #3a1a10;
+    --accent-fg: #fdab90;
+    --code-bg: #0c0908;
+  }
+}
