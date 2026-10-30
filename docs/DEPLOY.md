@@ -1,5 +1,9 @@
 # Deploy
 
+## Website
+
+The product page at **https://commitpilot.akshatgcodes.in** is `landing/` (a Next.js static export) on Vercel, connected to this repo. CommitPilot itself is a CLI and runs on your machine; the rest of this page is about that.
+
 CommitPilot is a local CLI; there's no server to host. "Deploying" it means installing it as a command you can run in any repo.
 
 ## Install as a command

@@ -15,6 +15,9 @@
 </p>
 
 <p align="center">
+  <a href="https://commitpilot.akshatgcodes.in">
+    <img src="https://img.shields.io/badge/website-f05033-f05033?style=flat-square" alt="Website">
+  </a>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" alt="Groq">
@@ -60,6 +63,9 @@ $ pilot commit --split
 ```
 
 Both are real runs against Groq (`openai/gpt-oss-120b`) on a test repo. Each commit gets exactly the staged patch for its files, so what you staged is what gets committed.
+
+> **Website →** [commitpilot.akshatgcodes.in](https://commitpilot.akshatgcodes.in)
+> It's a CLI, so the site is a product page with install steps.
 
 ---
 
