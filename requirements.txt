@@ -46,7 +46,7 @@ jsonpatch==1.38
     # via langchain-core
 jsonpointer==3.6
     # via jsonpatch
-langchain-core==1.7.1
+langchain-core==1.7.3
     # via
     #   commitpilot
     #   langchain-openai
