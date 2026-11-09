@@ -2,7 +2,7 @@
 #    uv export --no-dev --no-hashes --no-emit-project -o requirements.txt
 annotated-types==0.8.0
     # via pydantic
-anyio==4.15.1
+anyio==4.16.0
     # via
     #   httpx
     #   httpx2
@@ -42,21 +42,21 @@ idna==3.20
     #   requests
 jiter==0.18.0
     # via openai
-jsonpatch==1.38
+jsonpatch==1.43
     # via langchain-core
-jsonpointer==3.6
+jsonpointer==3.9
     # via jsonpatch
-langchain-core==1.7.3
+langchain-core==1.7.6
     # via
     #   commitpilot
     #   langchain-openai
-langchain-openai==1.7.3
+langchain-openai==1.7.4
     # via commitpilot
-langchain-protocol==0.0.20
+langchain-protocol==0.0.21
     # via langchain-core
-langsmith==0.14.16
+langsmith==0.14.17
     # via langchain-core
-openai==3.41.0
+openai==3.46.0
     # via langchain-openai
 orjson==3.13.0 ; platform_python_implementation != 'PyPy'
     # via langsmith
@@ -64,13 +64,13 @@ packaging==26.3
     # via
     #   langchain-core
     #   langsmith
-pydantic==2.14.2
+pydantic==2.14.3
     # via
     #   langchain-core
     #   langsmith
     #   openai
     #   pydantic-settings
-pydantic-core==2.50.2
+pydantic-core==2.50.4
     # via pydantic
 pydantic-settings==2.16.2
     # via commitpilot
@@ -111,7 +111,7 @@ typing-extensions==4.16.0
     #   pydantic-core
     #   pydantic-settings
     #   typing-inspection
-typing-inspection==0.4.4
+typing-inspection==0.4.5
     # via
     #   pydantic
     #   pydantic-settings
@@ -121,7 +121,7 @@ uuid-utils==0.19.0
     # via
     #   langchain-core
     #   langsmith
-websockets==17.3
+websockets==17.4
     # via langsmith
 xxhash==4.0.2
     # via langsmith
