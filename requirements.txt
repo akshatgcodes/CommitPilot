@@ -40,13 +40,13 @@ idna==3.20
     #   httpx
     #   httpx2
     #   requests
-jiter==0.18.0
+jiter==0.19.0
     # via openai
-jsonpatch==1.43
+jsonpatch==1.47
     # via langchain-core
-jsonpointer==3.9
+jsonpointer==3.12
     # via jsonpatch
-langchain-core==1.7.6
+langchain-core==1.8.0
     # via
     #   commitpilot
     #   langchain-openai
@@ -56,7 +56,7 @@ langchain-protocol==0.0.21
     # via langchain-core
 langsmith==0.14.17
     # via langchain-core
-openai==3.46.0
+openai==3.50.0
     # via langchain-openai
 orjson==3.13.0 ; platform_python_implementation != 'PyPy'
     # via langsmith
@@ -78,7 +78,7 @@ python-dotenv==1.2.4
     # via pydantic-settings
 pyyaml==6.0.3
     # via langchain-core
-regex==2026.9.29
+regex==2026.11.9
     # via tiktoken
 requests==2.34.2
     # via
@@ -123,7 +123,7 @@ uuid-utils==0.19.0
     #   langsmith
 websockets==17.4
     # via langsmith
-xxhash==4.0.2
+xxhash==4.1.0
     # via langsmith
 zstandard==0.25.0
     # via langsmith
